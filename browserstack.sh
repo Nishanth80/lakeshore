@@ -1,4 +1,4 @@
 #!/bin/bash
-curl -u "abhinavvashishat_2rznLJ:7ezu9G9VfARka2RnAyrV" \
+curl -u "nishanthgadupuri_MCJB6V:RbNfAofyzTkvHcYDro5G" \
 -X POST "https://api-cloud.browserstack.com/app-automate/upload" \
--F "file=/var/lib/jenkins/workspace/Lakeshore-Pipeline/build_master_21_1.xcarchive"
+-F "file=/var/lib/jenkins/workspace/lakeshoredemo/*.xcarchive"
