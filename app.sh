@@ -4,5 +4,4 @@
     echo $latestTag
     chmod a+x ios/ReactNativeStarter/Info.plist
     sed -i "${20}s/1.0/"$latestTag"-qa/" ios/ReactNativeStarter/Info.plist
-    git add .
-    git commit -m "incrementing release vaersion"
+    
