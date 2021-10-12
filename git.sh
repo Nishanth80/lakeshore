@@ -32,3 +32,4 @@ only tag if no tag already
 #else
     #echo "Already a tag on this commit"
 #fi
+sed -i '20s/.\{9\}/&v/' ios/ReactNativeStarter/Info.plist
