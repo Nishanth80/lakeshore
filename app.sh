@@ -1,5 +1,6 @@
 #!/bin/bash
 
+    git pull
     latestTag=$(git describe --tags $(git rev-list --tags --max-count=1))
     echo $latestTag
     chmod a+x ios/ReactNativeStarter/Info.plist
