@@ -9,5 +9,6 @@
     echo $oldTag
     
     sed -i "${20}s/"$oldTag"-qa/"$latestTag"-qa/" ios/ReactNativeStarter/Info.plist
+    sed -i '20s/[v]//' ios/ReactNativeStarter/Info.plist 
       
   
