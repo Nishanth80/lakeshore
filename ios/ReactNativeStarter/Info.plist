@@ -1,6 +1,6 @@
-<?xml version="v0.0.173-qa" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST v0.0.173-qa//EN" "http://www.apple.com/DTDs/PropertyList-v0.0.173-qa.dtd">
-<plist version="v0.0.173-qa">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
