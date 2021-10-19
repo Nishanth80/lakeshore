@@ -8,7 +8,7 @@
     oldTag=$(git describe --tags $(git rev-list --tags --max-count=1 --skip=1 --no-walk))
     echo $oldTag
     
-    sed -i "${24}s#[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
+    sed -i "${20}s#[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
 
     
     sed -i "${20}s/"$oldTag"/"$latestTag"/" ios/ReactNativeStarter/Info.plist
