@@ -1,84 +1,84 @@
-v0.0.251</string><?xml version="1.0" encoding="UTF-8"?>
-v0.0.251</string><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-v0.0.251</string><plist version="1.0">
-v0.0.251</string><dict>
-v0.0.251</string>	<key>CFBundleDevelopmentRegion</key>
-v0.0.251</string>	<string>en</string>
-v0.0.251</string>	<key>CFBundleDisplayName</key>
-v0.0.251</string>	<string>ReactNativeStarter</string>
-v0.0.251</string>	<key>CFBundleExecutable</key>
-v0.0.251</string>	<string>$(EXECUTABLE_NAME)</string>
-v0.0.251</string>	<key>CFBundleIdentifier</key>
-v0.0.251</string>	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-v0.0.251</string>	<key>CFBundleInfoDictionaryVersion</key>
-v0.0.251</string>	<string>6.0</string>
-v0.0.251</string>	<key>CFBundleName</key>
-v0.0.251</string>	<string>$(PRODUCT_NAME)</string>
-v0.0.251</string>	<key>CFBundlePackageType</key>
-v0.0.251</string>	<string>APPL</string>
-v0.0.251</string>	<key>CFBundleShortVersionString</key>
-0.0.251</string>	<string>v1.0</string>
-v0.0.251</string>	<key>CFBundleSignature</key>
-v0.0.251</string>	<string>????</string>
-v0.0.251</string>	<key>CFBundleVersion</key>
-v0.0.251</string>	<string>0.0.1</string>
-v0.0.251</string>	<key>LSRequiresIPhoneOS</key>
-v0.0.251</string>	<true/>
-v0.0.251</string>	<key>NSLocationWhenInUseUsageDescription</key>
-v0.0.251</string>	<string/>
-v0.0.251</string>	<key>UILaunchStoryboardName</key>
-v0.0.251</string>	<string>LaunchScreen</string>
-v0.0.251</string>	<key>UIRequiredDeviceCapabilities</key>
-v0.0.251</string>	<array>
-v0.0.251</string>		<string>armv7</string>
-v0.0.251</string>	</array>
-v0.0.251</string>	<key>UISupportedInterfaceOrientations</key>
-v0.0.251</string>	<array>
-v0.0.251</string>		<string>UIInterfaceOrientationPortrait</string>
-v0.0.251</string>		<string>UIInterfaceOrientationLandscapeLeft</string>
-v0.0.251</string>		<string>UIInterfaceOrientationLandscapeRight</string>
-v0.0.251</string>	</array>
-v0.0.251</string>	<key>UIViewControllerBasedStatusBarAppearance</key>
-v0.0.251</string>	<false/>
-v0.0.251</string>	<key>NSAppTransportSecurity</key>
-v0.0.251</string>	<dict>
-v0.0.251</string>		<key>NSAllowsArbitraryLoads</key>
-v0.0.251</string>		<true/>
-v0.0.251</string>		<key>NSExceptionDomains</key>
-v0.0.251</string>		<dict>
-v0.0.251</string>			<key>localhost</key>
-v0.0.251</string>			<dict>
-v0.0.251</string>				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-v0.0.251</string>				<true/>
-v0.0.251</string>			</dict>
-v0.0.251</string>		</dict>
-v0.0.251</string>	</dict>
-v0.0.251</string>	<key>UIAppFonts</key>
-v0.0.251</string>	<array>
-v0.0.251</string>		<string>Lato-Bold.ttf</string>
-v0.0.251</string>		<string>Lato-BoldItalic.ttf</string>
-v0.0.251</string>		<string>Lato-Italic.ttf</string>
-v0.0.251</string>		<string>Lato-Light.ttf</string>
-v0.0.251</string>		<string>Lato-LightItalic.ttf</string>
-v0.0.251</string>		<string>Lato-Medium.ttf</string>
-v0.0.251</string>		<string>Lato-Regular.ttf</string>
-v0.0.251</string>		<string>Lato-Semibold.ttf</string>
-v0.0.251</string>		<string>Lato-Thin.ttf</string>
-v0.0.251</string>		<string>AntDesign.ttf</string>
-v0.0.251</string>		<string>Entypo.ttf</string>
-v0.0.251</string>		<string>EvilIcons.ttf</string>
-v0.0.251</string>		<string>Feather.ttf</string>
-v0.0.251</string>		<string>FontAwesome.ttf</string>
-v0.0.251</string>		<string>FontAwesome5_Brands.ttf</string>
-v0.0.251</string>		<string>FontAwesome5_Regular.ttf</string>
-v0.0.251</string>		<string>FontAwesome5_Solid.ttf</string>
-v0.0.251</string>		<string>Foundation.ttf</string>
-v0.0.251</string>		<string>Ionicons.ttf</string>
-v0.0.251</string>		<string>MaterialCommunityIcons.ttf</string>
-v0.0.251</string>		<string>MaterialIcons.ttf</string>
-v0.0.251</string>		<string>Octicons.ttf</string>
-v0.0.251</string>		<string>SimpleLineIcons.ttf</string>
-v0.0.251</string>		<string>Zocial.ttf</string>
-v0.0.251</string>	</array>
-v0.0.251</string></dict>
-v0.0.251</string></plist>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
+vv0.0.252</string>
