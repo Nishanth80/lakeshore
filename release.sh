@@ -9,6 +9,8 @@ echo=$version
 #Initializing two variables
 a=$version
 b=$latestTag 
+echo $a
+echo $b
 
 if [ $a == $b ]
 then
