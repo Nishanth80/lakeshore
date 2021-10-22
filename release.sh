@@ -8,7 +8,7 @@ version=$(sed -n "20p" ios/ReactNativeStarter/Info.plist)
 echo=$version
 #Initializing two variables
 a= sed -n "20p" ios/ReactNativeStarter/Info.plist
-b= "<string>$latestTag</string>"
+b= "        <string>$latestTag</string>"
 
 if [ $a == $b ]
 then
