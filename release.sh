@@ -19,7 +19,7 @@ then
 	#If they are equal then print this
 	echo "it is upto date"
 else
-    sed -i "${20}s#v[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
+    sed -i "${20}s#[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
     sed -i "${20}s/"$oldTag"/"$latestTag"/" ios/ReactNativeStarter/Info.plist
     sed -i '20s/[v]//' ios/ReactNativeStarter/Info.plist
 	git add .
