@@ -1,5 +1,4 @@
 #!/bin/bash
-sed -i '20s/.\{9\}/&v/' ios/ReactNativeStarter/Info.plist
 latestTag=$(git describe --tags $(git rev-list --tags --max-count=1))
     echo $latestTag
     chmod a+x ios/ReactNativeStarter/Info.plist
