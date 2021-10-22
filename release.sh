@@ -15,8 +15,8 @@ then
 	#If they are equal then print this
 	echo "it is upto date"
 else
-    sed -i "${22}s#v[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
-    sed -i "${22}s/"$oldTag"/"$latestTag"/" ios/ReactNativeStarter/Info.plist
+    sed -i "${20}s#v[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
+    sed -i "${20}s/"$oldTag"/"$latestTag"/" ios/ReactNativeStarter/Info.plist
 	git add .
 	git commit -m " incrementing version"
 	
