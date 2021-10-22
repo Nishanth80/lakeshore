@@ -6,10 +6,10 @@ latestTag=$(git describe --tags $(git rev-list --tags --max-count=1))
     oldTag=$(git describe --tags $(git rev-list --tags --max-count=1 --skip=1 --no-walk))
     echo $oldTag
     
-version=$(sed -n '20s/v[^0-9]*\(\([0-9]\.\)\{0,4\}[0-9][0-9][^.]\).*/\1/p' ios/ReactNativeStarter/Info.plist)
+version=$(sed -n '20s/[^0-9]*\(\([0-9]\.\)\{0,4\}[0-9][0-9][^.]\).*/\1/p' ios/ReactNativeStarter/Info.plist)
 echo=$version
 #Initializing two variables
-a=$version
+a=v$version
 b=$latestTag 
 echo $a
 echo $b
