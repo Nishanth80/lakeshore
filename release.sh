@@ -11,8 +11,8 @@ echo=$version
 #Initializing two variables
 a=v$version
 b=$latestTag 
-echo $a
-echo $b
+echo  "The version in Info.plist is" $a
+echo  "The Latest version is " $b
 
 if [ $a == $b ]
 then
