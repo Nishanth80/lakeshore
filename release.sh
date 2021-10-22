@@ -20,6 +20,7 @@ then
 else
     sed -i "${20}s#v[0-9]\.[0-9]\.[0-9].*#"$oldTag"</string>#" ios/ReactNativeStarter/Info.plist
     sed -i "${20}s/"$oldTag"/"$latestTag"/" ios/ReactNativeStarter/Info.plist
+    sed -i '20s/[v]//' ios/ReactNativeStarter/Info.plist
 	git add .
 	git commit -m " incrementing version"
 	
