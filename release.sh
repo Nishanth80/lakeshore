@@ -6,9 +6,10 @@ latestTag=$(git describe --tags $(git rev-list --tags --max-count=1))
     echo $oldTag
 version=$(sed -n "20p" ios/ReactNativeStarter/Info.plist)
 echo=$version
+present=$(echo"        <string>$latestTag</string>")
 #Initializing two variables
 a= sed -n "20p" ios/ReactNativeStarter/Info.plist
-b=         '<string>$latestTag</string>'
+b=  $present
 
 if [ $a == $b ]
 then
