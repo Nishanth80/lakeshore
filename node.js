@@ -4,7 +4,7 @@ accessKey = RbNfAofyzTkvHcYDro5G
 //browserstackLocal = process.env.BROWSERSTACK_LOCAL
 buildName = LakeshoreProject
 //browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER
-app = /root/build_qa_50_1.ipa
+app = build_qa_50_1.ipa
 var capabilities = {
     "browserstack.user" : userName,
     "browserstack.key" : accessKey,
