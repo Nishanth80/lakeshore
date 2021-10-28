@@ -5,10 +5,10 @@
 //browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER
 //app = build_qa_50_1.ipa;
 var capabilities = {
-    "browserstack.user" : chirag_s0hAmI,
-    "browserstack.key" : UKVo1z4FvdVpShc6WdyC,
-    "app" : build_qa_50_1.ipa,
-    "build" : LakeshoreProject,
+    "browserstack.user" : "chirag_s0hAmI",
+    "browserstack.key" : "UKVo1z4FvdVpShc6WdyC",
+    "app" : "build_qa_50_1.ipa",
+    "build" : "LakeshoreProject",
     "device" : "iPhone 11",
     //"browserstack.local" : browserstackLocal,
     //"browserstack.localIdentifier" : browserstackLocalIdentifier
