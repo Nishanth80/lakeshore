@@ -1,9 +1,9 @@
 #!/usr/bin/env groovy
 userName = nishanthgadupuri_MCJB6V
 accessKey = RbNfAofyzTkvHcYDro5G
-#browserstackLocal = process.env.BROWSERSTACK_LOCAL
+//browserstackLocal = process.env.BROWSERSTACK_LOCAL
 buildName = LakeshoreProject
-#browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER
+//browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER
 app = /root/build_qa_50_1.ipa
 var capabilities = {
     "browserstack.user" : userName,
@@ -11,8 +11,8 @@ var capabilities = {
     "app" : app,
     "build" : buildName,
     "device" : "iPhone 11",
-    #"browserstack.local" : browserstackLocal,
-    #"browserstack.localIdentifier" : browserstackLocalIdentifier
+    //"browserstack.local" : browserstackLocal,
+    //"browserstack.localIdentifier" : browserstackLocalIdentifier
 }
 
 driver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
