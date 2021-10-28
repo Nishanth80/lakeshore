@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
-userName = nishanthgadupuri_MCJB6V
-accessKey = RbNfAofyzTkvHcYDro5G
+userName = chirag_s0hAmI
+accessKey = UKVo1z4FvdVpShc6WdyC
 //browserstackLocal = process.env.BROWSERSTACK_LOCAL
 buildName = LakeshoreProject
 //browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER
