@@ -14,7 +14,7 @@ var capabilities = {
     //"browserstack.localIdentifier" : browserstackLocalIdentifier
 }
 
-var driver = new webdriver.Builder().
+var driver = webdriver.Builder().
   usingServer("https://hub-cloud.browserstack.com/wd/hub").
   withCapabilities(capabilities).
   build();
