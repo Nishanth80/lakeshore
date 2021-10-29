@@ -10,8 +10,8 @@ var capabilities = {
     "app" : "build_qa_50_1.ipa",
     "build" : "LakeshoreProject",
     "device" : "iPhone 11",
-    "browserstack.local" : browserstackLocal,
-    "browserstack.localIdentifier" : browserstackLocalIdentifier
+    //"browserstack.local" : browserstackLocal,
+   // "browserstack.localIdentifier" : browserstackLocalIdentifier
 }
 
 driver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
