@@ -14,8 +14,8 @@ var capabilities = {
    // "browserstack.localIdentifier" : browserstackLocalIdentifier
 }
 
-WebDriver driver = new ChromeDriver ();
-driver. get (https://www.browserstack.com)
+driver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
+
 driver
   .init(capabilities)
   //Write your code here
