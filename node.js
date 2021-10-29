@@ -10,11 +10,14 @@ var capabilities = {
     "app" : "build_qa_50_1.ipa",
     "build" : "LakeshoreProject",
     "device" : "iPhone 11",
-    //"browserstack.local" : browserstackLocal,
-    //"browserstack.localIdentifier" : browserstackLocalIdentifier
+    "browserstack.local" : browserstackLocal,
+    "browserstack.localIdentifier" : browserstackLocalIdentifier
 }
 
-var driver = new webdriver.Builder().
-  usingServer("https://hub-cloud.browserstack.com/wd/hub").
-  withCapabilities(capabilities).
-  build();
+driver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
+
+driver
+  .init(capabilities)
+  //Write your code here
+  .fin(function() { return driver.quit(); })
+  .done();
