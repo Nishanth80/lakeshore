@@ -13,11 +13,7 @@ var capabilities = {
     //"browserstack.local" : browserstackLocal,
    // "browserstack.localIdentifier" : browserstackLocalIdentifier
 }
-
-webdriver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
-
-driver
-  .init(capabilities)
-  //Write your code here
-  .fin(function() { return driver.quit(); })
-  .done();
+ 				var driver = new webdriver.Builder().
+  usingServer("https://hub-cloud.browserstack.com/wd/hub").
+  withCapabilities(capabilities).
+  build();
