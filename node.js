@@ -14,7 +14,7 @@ var capabilities = {
    // "browserstack.localIdentifier" : browserstackLocalIdentifier
 }
 
-driver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
+webdriver = wd.promiseRemote("https://hub-cloud.browserstack.com/wd/hub");
 
 driver
   .init(capabilities)
